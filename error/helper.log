@@ -1,0 +1,64 @@
+{"code":"23505","constraint":"users_username_key","detail":"Key (username)=(sadjkj) already exists.","file":"nbtinsert.c","length":207,"level":"error","line":"671","name":"error","query":"insert into users(email, username, password, name) values('shubham.123@gmail.com', 'sadjkj', '$2b$10$0wDAkAYj4J6zBwH0Tedrq.Mx/L9E6WcZVu3YbYbh/zVVw5CNN224O', 'Shubham') returning *","routine":"_bt_check_unique","schema":"public","severity":"ERROR","table":"users"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error","message":"Token missing","statusCode":401}
+{"level":"error","message":{"statusCode":"Invalid token!"}}
+{"level":"error","message":{"statusCode":"Invalid token!"}}
+{"level":"error","message":{"statusCode":"Invalid token!"}}
+{"level":"error","message":{"statusCode":"Invalid token!"}}
+{"level":"error","message":{"statusCode":"Invalid token!"}}
+{"level":"error","message":{"statusCode":"Invalid token!"}}
+{"level":"error","message":{"statusCode":"Invalid token!"}}
+{"level":"error","message":{"statusCode":"Invalid token!"}}
+{"level":"error"}
+{"level":"error","message":{"statusCode":"Invalid token!"}}
+{"level":"error","message":{"statusCode":"Invalid token!"}}
+{"level":"error","message":{"statusCode":"Invalid token!"}}
+{"level":"error","message":{"statusCode":"Invalid token!"}}
+{"level":"error"}
+{"level":"error","message":{"statusCode":"Invalid token!"}}
+{"level":"error","message":{"statusCode":"Invalid token!"}}
+{"level":"error","message":{"statusCode":"Invalid token!"}}
+{"level":"error","message":{"statusCode":"Invalid token!"}}
+{"level":"error","message":{"statusCode":"Invalid token!"}}
+{"level":"error","message":{"statusCode":"Invalid token!"}}
+{"level":"error","message":{"statusCode":"Invalid token!"}}
+{"level":"error","message":{"statusCode":"Invalid token!"}}
+{"level":"error","message":{"statusCode":"Invalid token!"}}
+{"level":"error","message":{"statusCode":"Invalid token!"}}
+{"level":"error","message":{"statusCode":"Invalid token!"}}
+{"level":"error","message":{"statusCode":"Invalid token!"}}
+{"level":"error","message":"Invalid token!","statusCode":401}
+{"level":"error","message":"Invalid token!","statusCode":401}
+{"level":"error","message":"Invalid token!","statusCode":401}
+{"level":"error","message":"Invalid token!","statusCode":401}
+{"level":"error","message":"Invalid token!","statusCode":401}
+{"level":"error","message":"Invalid token!","statusCode":401}
+{"level":"error","message":"Invalid token!","statusCode":401}
+{"level":"error","message":{"code":"42703","file":"parse_relation.c","length":102,"line":"3666","name":"error","position":"26","query":"select * from user where id='{\"data\":29,\"iat\":1713558426}'","routine":"errorMissingColumn","severity":"ERROR"},"statusCode":401}
+{"level":"error","message":{"code":"42703","file":"parse_relation.c","length":102,"line":"3666","name":"error","position":"26","query":"select * from user where id='{\"data\":29,\"iat\":1713558426}'","routine":"errorMissingColumn","severity":"ERROR"},"statusCode":401}
+{"level":"error","message":{"code":"42703","file":"parse_relation.c","length":102,"line":"3666","name":"error","position":"26","query":"select * from user where id='{\"data\":29,\"iat\":1713558426}'","routine":"errorMissingColumn","severity":"ERROR"},"statusCode":401}
+{"level":"error","message":{"code":"42703","file":"parse_relation.c","length":102,"line":"3666","name":"error","position":"26","query":"select * from user where id=null","routine":"errorMissingColumn","severity":"ERROR"},"statusCode":401}
+{"level":"error","message":{"code":"42703","file":"parse_relation.c","length":102,"line":"3666","name":"error","position":"26","query":"select * from user where id=null","routine":"errorMissingColumn","severity":"ERROR"},"statusCode":401}
+{"level":"error","message":{"code":"42703","file":"parse_relation.c","length":102,"line":"3666","name":"error","position":"26","query":"select * from user where id=null","routine":"errorMissingColumn","severity":"ERROR"},"statusCode":401}
+{"level":"error","message":{"code":"42703","file":"parse_relation.c","length":102,"line":"3666","name":"error","position":"26","query":"select * from user where id=null","routine":"errorMissingColumn","severity":"ERROR"},"statusCode":401}
+{"level":"error","message":{"code":"42703","file":"parse_relation.c","length":102,"line":"3666","name":"error","position":"26","query":"select * from user where id=null","routine":"errorMissingColumn","severity":"ERROR"},"statusCode":401}
+{"level":"error","message":{"code":"42703","file":"parse_relation.c","length":102,"line":"3666","name":"error","position":"26","query":"select * from user where id=null","routine":"errorMissingColumn","severity":"ERROR"},"statusCode":401}
+{"level":"error","message":{"code":"42703","file":"parse_relation.c","length":102,"line":"3666","name":"error","position":"26","query":"select * from user where id=29","routine":"errorMissingColumn","severity":"ERROR"},"statusCode":401}
+{"level":"error","message":{"expiredAt":"2024-04-19T20:37:26.000Z","message":"jwt expired","name":"TokenExpiredError"},"statusCode":401}
+{"level":"error","message":{"expiredAt":"2024-04-19T20:37:26.000Z","message":"jwt expired","name":"TokenExpiredError"},"statusCode":401}

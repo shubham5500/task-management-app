@@ -1,0 +1,6 @@
+{
+    "credentials": {
+        "token_secret": "TOKEN_SECRET",
+        "refresh_secret": "REFRESH_SECRET"
+    }
+}
