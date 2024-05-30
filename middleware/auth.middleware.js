@@ -14,7 +14,7 @@ async function authorizedUser(req, res, next) {
   // try {
   //   const { data } = jwt.verify(token, config.get("credentials.token_secret"));
   //   const user = await getUserById(data);
-  //   res.user = user;
+  //   req.user = user;
   //   next();
   // } catch (error) {
   //   throw new ErrorHandler(403, error);

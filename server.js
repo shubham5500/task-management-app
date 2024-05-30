@@ -5,6 +5,7 @@ require("dotenv").config({
       : "production.env",
 });
 const express = require("express");
+const morgan = require("morgan");
 const path = require("path");
 
 const cookieParser = require("cookie-parser");
@@ -28,7 +29,7 @@ const corsOptions = {
 };
 app.use(cors(corsOptions));
 app.use(cookieParser()); // This will parse cookies from incoming requests
-
+app.use(morgan('dev'))
 app.use("/auth", authRoute);
 app.use("/users", authorizedUser, userRoute);
 app.use("/list", authorizedUser, listRoute);
