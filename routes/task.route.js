@@ -1,4 +1,5 @@
 const express = require("express");
+const config = require("config");
 const { isEmpty } = require("lodash");
 const AWS = require("aws-sdk");
 const multerS3 = require("multer-s3");
@@ -21,10 +22,9 @@ const { validateComment } = require("../models/comment.model");
 
 const taskRoute = express.Router();
 const s3 = new AWS.S3({
-  accessKeyId: "AKIATCKAOYTWC372OHFF",
-  secretAccessKey: "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",
+  // accessKeyId: config.get("credentials.aws_access_key_id"),
+  // secretAccessKey: config.get("credentials.secret_access_key"),
 });
-
 const upload = multer({
   storage: multerS3({
     s3,
@@ -116,7 +116,7 @@ taskRoute.patch("/:taskId", async (req, res) => {
 
 taskRoute.post("/:taskId/comment", async (req, res) => {
   const body = req.body;
-  const {taskId} = req.params;
+  const { taskId } = req.params;
   // const { userId } = req.user; // todo: remove the OR sign
   const { text } = body;
   const validateCommentObj = validateComment({ text });
@@ -125,8 +125,8 @@ taskRoute.post("/:taskId/comment", async (req, res) => {
     throw new ErrorHandler(403, validateCommentObj.error);
   }
 
-  const result = await commentOnTask(taskId, 3, {text})
-  return res.status(200).send({message: 'Create Successfully!', result})
+  const result = await commentOnTask(taskId, 3, { text });
+  return res.status(200).send({ message: "Create Successfully!", result });
 });
 
 taskRoute.put("/move", async (req, res) => {
